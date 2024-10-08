@@ -12,7 +12,6 @@ Pod::Spec.new do |s|
 
   s.source           = { :git => 'https://github.com/ssankosik/Charts.git' }
   s.default_subspec  = "Core"
-
   s.subspec "Core" do |ss|
     ss.source_files  = "Charts/Source/**/*.{swift}"
     ss.dependency 'SwiftAlgorithms', '~> 1.0'
